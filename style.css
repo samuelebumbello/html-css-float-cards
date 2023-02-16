@@ -5,7 +5,8 @@
 }
 
 body{
-  font-family: 'roboto',sans-serif;
+  font-family: 'Fredoka', sans-serif;
+
 }
 
 .container{
@@ -15,17 +16,73 @@ body{
   padding-top: 45px;
 }
 
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.box{
+  float: left;
+  background-color: black;
+  width: 350px;
+  height: 100px;
+}
+
 
 
 
 /* HEADER */
 
-.jumbotron{
+.container h1{
   text-align: center;
   padding-top: 23px;
+  color: rgb(238, 28, 115);
+  font-size: 44px;
+  
 }
 
 p{
   text-align: center;
+  padding-right: 0 20px;
+  
 }
 
+/* MAIN */
+
+.container-box{
+ padding-top: 40px;
+}
+
+.sottobox{
+ float: left;
+ padding: 20px;
+}
+
+.box ul{
+color: white;
+display: inline-block;
+}
+
+img{
+  width: 100px;
+  float: left;
+  margin-right: 13px;
+  
+}
+
+
+.lista ul li{
+  list-style: none;
+  padding-top: 8px;
+}
+
+.lista .nomi{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.email a{
+  color: rgb(104, 185, 240);
+  text-decoration: none;
+}
